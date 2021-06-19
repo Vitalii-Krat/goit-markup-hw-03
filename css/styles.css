@@ -1,0 +1,209 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --white-text-color: #ffffff;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --footer-hero-background-color: #2f303a;
+}
+
+body {
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-text-color);
+}
+
+/*---------HEADER----------*/
+
+.header {
+  background-color: var(--white-text-color);
+}
+
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--accent-text-color);
+}
+
+.site-nav .current {
+  color: var(--accent-text-color);
+}
+
+.site-nav {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.86;
+  letter-spacing: 0.02em;
+}
+
+.site-contacts-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.88;
+  letter-spacing: 0.02em;
+}
+
+/*---------HERO--------*/
+
+.section-hero {
+  background-color: var(--footer-hero-background-color);
+}
+
+.hero-title {
+  color: var(--white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.modal-btn {
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #188ce8;
+}
+
+/*-----SKILLS-SECTION----*/
+
+.skills-subtitle {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.skills-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*-------specialization----*/
+
+.specialization-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*---------TEAM--------*/
+
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-subtitle {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/*--------FOOTER-------*/
+
+.footer {
+  background-color: var(--footer-hero-background-color);
+}
+
+.footer .logo {
+  color: var(--white-text-color);
+}
+
+.adress {
+  font-style: inherit;
+}
+
+.mapslink {
+  color: var(--white-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.site-contacts-link-adress {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*=====PORTFOLIO=======*/
+
+.btn {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
+}
+
+.card-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.88;
+}
