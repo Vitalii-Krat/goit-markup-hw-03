@@ -18,7 +18,8 @@
 
 <body>
     
-    <!--HEADER-->
+    <!--==================HEADER=========================================-->
+
 <header class="header">
     <div class="container">
         <nav class="site-nav">
@@ -38,96 +39,140 @@
             </li>
         </ul>
     </div>
-    <!-- <div class="container"> -->
-    <!-- </div> -->
 </header>
 
+<!--=================MAIN======================================================-->
+
     <main>
+        
         <section class="portfolio">
+
             <h1 hidden>Портфолио</h1>
 
             <!--FILTER-->
             <section class="filter">
+
                 <h2 hidden>Наши работы</h2>
-                <ul class="filter-list list">
-                    <li><button class="btn" type="button">Все</button></li>
-                    <li><button class="btn" type="button">Веб-сайты</button></li>
-                    <li><button class="btn" type="button">Приложения</button></li>
-                    <li><button class="btn" type="button">Дизайн</button></li>
-                    <li><button class="btn" type="button">Маркетинг</button></li>
-                </ul>
+
+                <div class="container">
+                    <ul class="filter-list list">
+                        <li class="item-list"><button class="btn" type="button">Все</button></li>
+                        <li class="item-list"><button class="btn" type="button">Веб-сайты</button></li>
+                        <li class="item-list"><button class="btn" type="button">Приложения</button></li>
+                        <li class="item-list"><button class="btn" type="button">Дизайн</button></li>
+                        <li class="item-list"><button class="btn" type="button">Маркетинг</button></li>
+                    </ul>
+                </div>
+
             </section>
-            <!-- WORK-LIST-->
-            <h2 hidden>Список работ</h2>
-           <ul class="card-list list">
-                <li>
-                    <a>
-                        <img src="./images/texnokrak_one.jpg" alt="Сайт Технокряк">
-                        <h3 class="card-title">Технокряк</h3>
-                        <p class="card-text">Веб-сайт</p>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <img src="./images/poster_two.jpg" alt="Постер" width="370" height="294">
-                        <h3 class="card-title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-                        <p class="card-text">Дизайн</p>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <img src="./images/seafood_three.jpg" alt="Ресторан Seafood" width="370" height="294">
-                        <h3 class="card-title">Ресторан <span lang="en">Seafood</span></h3>
-                        <p class="card-text">Приложение</p>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <img src="./images/headphones_four.jpg" alt="Наушники" width="370" height="294">
-                        <h3 class="card-title">Проект <span lang="en">Prime</span></h3>
-                        <p class="card-text">Маркетинг</p>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <img src="./images/boxes_five.jpg" alt="Две коробки" width="370" height="294">
-                        <h3 class="card-title">Проект <span lang="en">Boxes</span></h3>
-                        <p class="card-text">Приложение</p>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <img src="./images/screen_six.jpg" alt="Монитор" width="370" height="294">
-                        <h3 class="card-title"><span lang="en">Inspiration has no Borders</span></h3>
-                        <p class="card-text">Веб-сайт</p>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <img src="./images/book_seven.jpg" alt="Открытая книга" width="370" height="294">
-                        <h3 class="card-title">Издание <span lang="en">Limited Edition</span></h3>
-                        <p class="card-text">Дизайн</p>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <img src="./images/label_eight.jpg" alt="Эмблема с надписью" width="370" height="294">
-                        <h3 class="card-title">Проект LAB</h3>
-                        <p class="card-text">Маркетинг</p>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <img src="./images/desctop_nine.jpg" alt="Работа с ноутбуком" width="370" height="294">
-                        <h3 class="card-title"><span lang="en">Growing Business</span></h3>
-                        <p class="card-text">Приложение</p>
-                    </a>
-                </li>
-            </ul>
+            
+            <!--================WORK-LIST=============================-->
+
+            <section class="work-portfolio">
+                <div class="container">
+
+                    <h2 hidden>Список работ</h2>
+                    <ul class="card-set list">
+
+                        <li class="item-card">
+                            <a>
+                                <img src="./images/texnokrak_one.jpg" alt="Сайт Технокряк">
+                                <div class="card-content">
+                                    <h3 class="card-title">Технокряк</h3>
+                                    <p class="card-text">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="item-card">
+                            <a>
+                                <img src="./images/poster_two.jpg" alt="Постер" width="370" height="294">
+                                <div class="card-content">
+                                    <h3 class="card-title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+                                    <p class="card-text">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="item-card">
+                            <a>
+                                <img src="./images/seafood_three.jpg" alt="Ресторан Seafood" width="370" height="294">
+                                <div class="card-content">
+                                    <h3 class="card-title">Ресторан <span lang="en">Seafood</span></h3>
+                                    <p class="card-text">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="item-card">
+                            <a>
+                                <img src="./images/headphones_four.jpg" alt="Наушники" width="370" height="294">
+                                <div class="card-content">
+                                    <h3 class="card-title">Проект <span lang="en">Prime</span></h3>
+                                    <p class="card-text">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="item-card">
+                            <a>
+                                <img src="./images/boxes_five.jpg" alt="Две коробки" width="370" height="294">
+                                <div class="card-content">
+                                    <h3 class="card-title">Проект <span lang="en">Boxes</span></h3>
+                                    <p class="card-text">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="item-card">
+                            <a>
+                                <img src="./images/screen_six.jpg" alt="Монитор" width="370" height="294">
+                                <div class="card-content">
+                                    <h3 class="card-title"><span lang="en">Inspiration has no Borders</span></h3>
+                                    <p class="card-text">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="item-card">
+                            <a>
+                                <img src="./images/book_seven.jpg" alt="Открытая книга" width="370" height="294">
+                                <div class="card-content">
+                                    <h3 class="card-title">Издание <span lang="en">Limited Edition</span></h3>
+                                    <p class="card-text">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="item-card">
+                            <a>
+                                <img src="./images/label_eight.jpg" alt="Эмблема с надписью" width="370" height="294">
+                                <div class="card-content">
+                                    <h3 class="card-title">Проект LAB</h3>
+                                    <p class="card-text">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="item-card">
+                            <a>
+                            
+                                <img src="./images/desctop_nine.jpg" alt="Работа с ноутбуком" width="370" height="294">
+                                <div class="card-content">
+                                    <h3 class="card-title"><span lang="en">Growing Business</span></h3>
+                                    <p class="card-text">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </section>
         </section>
     </main>
 
-    <!--FOOTER-->
+    <!--==============FOOTER=================-->
+    
     <footer class="site-footer">
         <div class="container">
             <a href="/" class="logo footer"><span class="logo-web">Web</span>Studio</a>
